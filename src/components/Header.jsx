@@ -20,34 +20,34 @@ const Header = () => {
             </span>
             <ul className="hidden absolute left-0 top-[90%] w-[220px] z-10 mt-2 group-hover:block bg-white border border-gray-200 shadow-lg text-sm text-[#333]">
               <li className="p-3 border-b-[1px] border-[#444] hover:bg-[#333] hover:text-white">
-                <a className="w-full block" href="">
+                <Link to={"/ban-ca"} className="w-full block">
                   Bắn cá King88
-                </a>
+                </Link>
               </li>
               <li className="p-2 border-b-[1px] border-[#444] hover:bg-[#333] hover:text-white">
-                <a className="w-full block" href="">
+                <Link to={"/casino-online"} className="w-full block">
                   Casino Online King88
-                </a>
+                </Link>
               </li>
               <li className="p-2 border-b-[1px] border-[#444] hover:bg-[#333] hover:text-white">
-                <a className="w-full block" href="">
+                <Link to={"/da-ga"} className="w-full block">
                   Đá gà King88
-                </a>
+                </Link>
               </li>
               <li className="p-2 border-b-[1px] border-[#444] hover:bg-[#333] hover:text-white">
-                <a className="w-full block" href="">
+                <Link to={"/game-bai"} className="w-full block">
                   Game bài King88
-                </a>
+                </Link>
               </li>
               <li className="p-2 border-b-[1px] border-[#444] hover:bg-[#333] hover:text-white">
-                <a className="w-full block" href="">
+                <Link to={"/no-hu"} className="w-full block">
                   Nổ hũ King88
-                </a>
+                </Link>
               </li>
               <li className="p-2 border-b-[1px] border-[#444] hover:bg-[#333] hover:text-white">
-                <a className="w-full block" href="">
+                <Link to={"/the-thao"} className="w-full block">
                   Thể thao King88
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
@@ -61,7 +61,7 @@ const Header = () => {
             <Link to={"/download-app"}>Tải app</Link>
           </li>
           <li className="hover:text-yellow-400 h-9 pb-2 hover:border-b-4 border-yellow-400">
-            <a href="">Đại lý</a>
+            <Link to={"/agency"}>Đại lý</Link>
           </li>
         </ul>
         <div className="flex gap-3">
