@@ -15,7 +15,7 @@ const Blog = ({ title, blogs }) => {
           <div className="flex gap-4 pr-5 border-r-2 border-white flex-wrap w-[79%] justify-between pb-8">
             {blogs.map((blog) => (
               <div className="flex flex-col items-center" key={blog.id}>
-                <Link to={blog.link}>
+                <Link to={"blog.link"}>
                   <img
                     src={blog.image}
                     alt=""
@@ -24,7 +24,7 @@ const Blog = ({ title, blogs }) => {
                 </Link>
                 <div className="phone:w-[250px] tablet:w-[250px] laptop:w-[435px] py-5">
                   <Link
-                    to={blog.link}
+                    to={"blog.link"}
                     className="text-main w-full block text-center text-sm font-bold"
                   >
                     {blog.title}
