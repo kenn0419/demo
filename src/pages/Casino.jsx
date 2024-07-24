@@ -20,7 +20,7 @@ const blogs = [
   {
     id: 1,
     image: image1,
-    link: "",
+    link: "https://king88vina.vip/cach-choi-roulette/",
     title: "Bật Mí Cách Chơi Roulette Dễ Về Bờ Cho Các Cược Thủ",
     desc: "Roulette là một trong những trò chơi game bài ăn khách được thiết kế tỷ [...]",
     comments: null,
@@ -28,7 +28,7 @@ const blogs = [
   {
     id: 2,
     image: image2,
-    link: "",
+    link: "https://king88vina.vip/cach-choi-poker-2-la/",
     title: "Hướng Dẫn Cách Chơi Poker 2 lá Đơn Giản Cho Tân Thủ",
     desc: "Để nâng cao tỷ lệ giành chiến thắng trong game bài poker. Không đơn thuần [...]",
     comments: null,
@@ -36,7 +36,7 @@ const blogs = [
   {
     id: 3,
     image: image3,
-    link: "",
+    link: "https://king88vina.vip/hack-game-casino/",
     title: "Hướng Dẫn Game Thủ Cách Cài Đặt Tool Hack Game Casino",
     desc: "Tool hack game casino được rất nhiều anh em lựa chọn để sử dụng chơi [...]",
     comments: null,
@@ -44,7 +44,7 @@ const blogs = [
   {
     id: 4,
     image: image4,
-    link: "",
+    link: "https://king88vina.vip/hand-poker/",
     title: "Khám Phá Các Hand Poker Giúp Bắt Đầu Thuận Lợi",
     desc: "Bạn đã từng nghe đến Hand Poker chưa? Đó là một khía cạnh thú vị [...]",
     comments: null,
@@ -52,7 +52,7 @@ const blogs = [
   {
     id: 5,
     image: image5,
-    link: "",
+    link: "https://king88vina.vip/danh-baccarat-theo-nhom/",
     title: "Đánh Baccarat Theo Nhóm Và Những Điều Bet Thủ Cần Biết ",
     desc: "Khi tiếp xúc với thế giới của trò chơi Baccarat, bạn sẽ thường nghe đến [...]",
     comments: null,
@@ -60,7 +60,7 @@ const blogs = [
   {
     id: 6,
     image: image6,
-    link: "",
+    link: "https://king88vina.vip/win-three-cards/",
     title: "Cùng King88 Tìm Hiểu Tựa Game Win Three Cards Chi Tiết Nhất",
     desc: "Win three cards, một trò chơi từ lâu đã phổ biến trên thị trường casino [...]",
     comments: null,
@@ -68,7 +68,7 @@ const blogs = [
   {
     id: 7,
     image: image7,
-    link: "",
+    link: "https://king88vina.vip/khai-niem-flush-poker-la-gi-xep-hang-bo-bai-chuyen-nghiep/",
     title: "Khái Niệm Flush Poker Là Gì? – Xếp Hạng Bộ Bài Chuyên Nghiệp",
     desc: "Flush poker là gì? Phương pháp chơi của thuật ngữ này có điều gì khác [...]",
     comments: null,
@@ -76,7 +76,7 @@ const blogs = [
   {
     id: 8,
     image: image8,
-    link: "",
+    link: "https://king88vina.vip/casino-ag-king88-dang-cap-song-bai-online-tu-nha-cai-uy-tin/",
     title: "Casino AG King88: Đẳng Cấp Sòng Bài Online Từ Nhà Cái Uy Tín",
     desc: "Nếu bạn là người yêu thích các trò chơi sòng bài quốc tế thì chắc [...]",
     comments: null,
@@ -84,7 +84,7 @@ const blogs = [
   {
     id: 9,
     image: image9,
-    link: "",
+    link: "https://king88vina.vip/cac-dang-cuoc-trong-poker-hap-dan-thu-vi-va-da-dang/",
     title: "Các Dạng Cược Trong Poker Hấp Dẫn, Thú Vị Và Đa Dạng",
     desc: "Tìm hiểu ngay các dạng cược trong Poker , mang đến cho game thủ góc [...]",
     comments: null,
@@ -92,7 +92,7 @@ const blogs = [
   {
     id: 10,
     image: image10,
-    link: "",
+    link: "https://king88vina.vip/dinh-nghia-bluff-poker-la-gi-chien-thuat-choi-hieu-qua/",
     title: "Định Nghĩa Bluff Poker Là Gì? Chiến Thuật Chơi Hiệu Quả",
     desc: "Bluff poker là gì? tại sao lại khiến các cược thủ thích thú đến vậy? [...]",
     comments: null,
@@ -105,8 +105,8 @@ const Casino = () => {
     setExpanded(!expanded);
   };
   return (
-    <div className="bg-black">
-      <div className="mx-auto w-main text-white">
+    <div className="bg-black pl-3">
+      <div className="mx-auto phone:w-full laptop:w-main text-white">
         <h1 className="uppercase font-bold text-main pt-4 pb-4 text-center">
           CASINO ONLINE KING88
         </h1>
@@ -135,7 +135,7 @@ const Casino = () => {
         <div className="relative">
           <div
             className={clsx(
-              "w-[960px] mx-auto flex justify-center flex-col",
+              "phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col",
               expanded ? "h-auto" : "h-[100px] overflow-hidden"
             )}
           >
@@ -176,7 +176,7 @@ const Casino = () => {
               Hướng dẫn cách tham gia vào casino King88
             </h3>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col">
                 <img src={ThamGia} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Tham gia game tại King88 cực nhanh chóng và dễ dàng
@@ -215,7 +215,7 @@ const Casino = () => {
               Đặc biệt có một số game mà bạn nên thử như sau
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col">
                 <img src={baiCasino} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Những game bài casino thú vị nhất
@@ -265,7 +265,7 @@ const Casino = () => {
                 hợp với rất nhiều người.
               </p>
               <div>
-                <div className="w-[960px] mx-auto flex justify-center flex-col">
+                <div className="phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col">
                   <img src={Tuagamehot} alt="" className="mb-2" />
                   <span className="text-center italic">
                     Rồng hổ – Tựa game hot hit nhất hiện nay

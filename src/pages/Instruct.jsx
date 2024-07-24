@@ -8,7 +8,7 @@ const blogs = [
   {
     id: 1,
     image: image1,
-    link: "",
+    link: "https://king88vina.vip/dang-ky-king88/",
     title: "Hướng Dẫn Đăng Ký King88 Nhanh, Gọn, Lẹ",
     desc: "Đăng ký king88 để nhận được nhiều quà tặng và tha hồ hốt bạc từ [...]",
     comments: 10,
@@ -16,7 +16,7 @@ const blogs = [
   {
     id: 2,
     image: image2,
-    link: "",
+    link: "https://king88vina.vip/doi-mat-khau-king88/",
     title: "Hướng Dẫn Cách Đổi Mật Khẩu King88 Dễ Như Ăn Cháo",
     desc: "Đổi mật khẩu king88 nhanh chóng, chỉ với vài thao tác đơn giản nhưng lại [...]",
     comments: null,
@@ -24,7 +24,7 @@ const blogs = [
   {
     id: 3,
     image: image3,
-    link: "",
+    link: "https://king88vina.vip/rut-tien-king88/",
     title: "Hướng Dẫn Cách Rút Tiền King88 Nhanh Chóng, An Toàn",
     desc: "Anh em mới tham gia chơi game online chắc hẳn ai cũng muốn biết cách [...]",
     comments: null,
@@ -32,7 +32,7 @@ const blogs = [
   {
     id: 4,
     image: image4,
-    link: "",
+    link: "https://king88vina.vip/nap-tien-king88/",
     title: "Hướng Dẫn Nạp Tiền King88 Siêu Đơn Giản ",
     desc: "Nạp tiền King88 là bước đầu tiên nhưng cũng rất quan trọng khi người chơi [...]",
     comments: null,

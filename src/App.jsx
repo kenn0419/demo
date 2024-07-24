@@ -1,6 +1,6 @@
 import "./index.css";
 
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import {
   Agency,
   CardGame,
@@ -15,11 +15,21 @@ import {
   ShootingFish,
   Sport,
 } from "./pages";
+import { useEffect, useState } from "react";
 function App() {
+  const location = useLocation();
+  const [showMenu, setShowMenu] = useState(false);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    setShowMenu(false);
+  }, [location]);
   return (
     <>
       <Routes>
-        <Route path="/" element={<Public />}>
+        <Route
+          path="/"
+          element={<Public showMenu={showMenu} setShowMenu={setShowMenu} />}
+        >
           <Route path="" element={<Home />} />
           <Route path="/promotion" element={<Promotion />} />
           <Route path="/instruct" element={<Instruct />} />

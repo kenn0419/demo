@@ -6,8 +6,8 @@ import Tuagame from "../image/tua-game-hot.webp";
 const DownloadApp = () => {
   return (
     <div className="bg-black">
-      <div className="mx-auto w-main text-white">
-        <header>
+      <div className="mx-auto tablet:w-full laptop:w-main text-white">
+        <header className="px-4">
           <h1 className="py-4 text-yellow-400 text-[25px] font-bold">
             TẢI APP KING88 – HƯỚNG DẪN QUY TRÌNH TẢI SIÊU NHANH
           </h1>
@@ -18,7 +18,7 @@ const DownloadApp = () => {
             viết sau nhé.
           </p>
           <div>
-            <div className="w-[960px] mx-auto">
+            <div className="tablet:w-[450px] laptop:w-[960px] mx-auto">
               <img src={TaiApp} alt="" className="mb-2" />
               <span className="italic">
                 Tải app king88 để trải nghiệm những dịch vụ, trò chơi hấp dẫn
@@ -37,7 +37,7 @@ const DownloadApp = () => {
             riêng của mình.
           </p>
           <div>
-            <div className="w-[960px] mx-auto">
+            <div className="tablet:w-[450px] laptop:w-[960px] mx-auto">
               <img src={KM} alt="" className="mb-2" />
               <span className="italic">
                 King88 là một nhà cái có rất nhiều chương trình khuyến mãi hấp
@@ -82,7 +82,7 @@ const DownloadApp = () => {
             app riêng biệt.
           </p>
           <div>
-            <div className="w-[960px] mx-auto">
+            <div className="tablet:w-[450px] laptop:w-[960px] mx-auto">
               <img src={HDH} alt="" className="mb-2" />
               <span className="italic">
                 App king88 có thể tải được bằng nhiều hệ điều hành khác nhau
@@ -154,7 +154,7 @@ const DownloadApp = () => {
             nhằm hỗ trợ người dùng tốt hơn nữa.
           </p>
           <div>
-            <div className="w-[739px] mx-auto">
+            <div className="tablet:w-[450px] laptop:w-[739px] mx-auto">
               <img src={Tuagame} alt="" className="mb-2" />
               <span className="font-bold">
                 Tải app king88 để trải nghiệm những tựa game hot hit một cách dễ

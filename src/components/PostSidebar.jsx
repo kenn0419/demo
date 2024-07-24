@@ -15,7 +15,7 @@ const PostSidebar = () => {
             </div> */}
       <div className="text-main">
         <h3 className="uppercase text-white font-bold text-sm">Chuyên mục</h3>
-        <ul className="mt-4">
+        <ul className="mt-4 text-sm">
           <li className="pb-2 hover:text-yellow-600">
             <Link>Hướng dẫn</Link>
           </li>
@@ -43,7 +43,7 @@ const PostSidebar = () => {
       </div>
       <div className="text-main mt-5">
         <h3 className="uppercase text-white font-bold text-sm">BÀI VIẾT MỚI</h3>
-        <ul className="mt-4">
+        <ul className="mt-4 text-sm">
           <li className="py-2 hover:text-yellow-600 border-b-2 border-white">
             <Link>
               Định nghĩa xả kèo là gì? Bí Quyết Chơi Xả Kèo Thành Công

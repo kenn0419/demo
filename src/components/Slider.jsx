@@ -8,7 +8,7 @@ import { Keyboard, Mousewheel, Navigation, Pagination } from "swiper/modules";
 
 const Slider = () => {
   return (
-    <>
+    <div className="w-full">
       <Swiper
         cssMode={true}
         navigation={true}
@@ -26,7 +26,7 @@ const Slider = () => {
         </SwiperSlide>
       </Swiper>
       <div className="bg-black">
-        <div className="mx-auto w-main text-center text-white py-8">
+        <div className="mx-auto phone:w-full phone:block laptop:w-main text-center text-white py-8">
           <h1 className="text-[36px] text-yellow-400 font-bold">
             【 King88 Vina 】
           </h1>
@@ -35,7 +35,7 @@ const Slider = () => {
           </span>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

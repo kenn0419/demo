@@ -1,13 +1,13 @@
-import image1 from "../image/khai-niem-ve-cach-choi-roulette.jpg";
-import image2 from "../image/luat-cua-cach-choi-poker-2-la.jpg";
-import image3 from "../image/cach-cai-dat-cong-cu-hack-game-don-gian.jpg";
-import image4 from "../image/kham-pha-hand-poker-la-gi.jpg";
-import image5 from "../image/danh-baccarat-theo-nhom-de-nhan-duoc-su-ho-tro-dich-thuc.jpg";
-import image6 from "../image/gioi-thieu-tong-quan-ve-win-three-cards.jpg";
-import image7 from "../image/uu-diem-khi-dung-flush-poker.png";
-import image8 from "../image/gioi-thieu-ag-casino.png";
-import image9 from "../image/khai-niem-poker-la-gi.png";
-import image10 from "../image/loi-ich-khi-dung-bluff-poker.png";
+import image1 from "../image/game-bai-tien-len-doi-thuong-la-gi.jpg";
+import image2 from "../image/khai-niem-ve-lieng-cao-to-3-cay.jpg";
+import image3 from "../image/sanh-co-quay-roulette.png";
+import image4 from "../image/mg-va-king88-hop-tac.png";
+import image5 from "../image/Da-dang-tua-game-va-phong-phu-cac-the-loai-choi.png";
+import image6 from "../image/Game-bai-JILI-King88-vo-cung-thu-hut-va-hap-dan.webp";
+import image7 from "../image/Game-bai-RICH88-King88-cuon-hut-hap-dan-nguoi-choi.webp";
+import image8 from "../image/Game-bai-SG-da-nen-tang-phong-phu-hap-dan.webp";
+import image9 from "../image/Game-bai-WG-King88-duoc-dong-dao-nguoi-choi-tin-dung.webp";
+
 import { useState } from "react";
 import sanhCasino from "../image/Kham-pha-the-gioi-game-bai-King88.webp";
 import ThamGia from "../image/Thiet-ke-game-Sam-Loc-voi-do-hoa-mang-tinh-tham-my.webp";
@@ -20,81 +20,73 @@ const blogs = [
   {
     id: 1,
     image: image1,
-    link: "",
-    title: "Bật Mí Cách Chơi Roulette Dễ Về Bờ Cho Các Cược Thủ",
-    desc: "Roulette là một trong những trò chơi game bài ăn khách được thiết kế tỷ [...]",
+    link: "https://king88vina.vip/game-bai-tien-len-doi-thuong-pho-bien-2024/",
+    title: "Những Loại Game Bài Tiến Lên Đổi Thưởng Phổ Biến 2024 ",
+    desc: "Trò chơi tiến lên đổi thưởng là một hình thức đánh bài trực tuyến không [...]  ",
     comments: null,
   },
   {
     id: 2,
     image: image2,
-    link: "",
-    title: "Hướng Dẫn Cách Chơi Poker 2 lá Đơn Giản Cho Tân Thủ",
-    desc: "Để nâng cao tỷ lệ giành chiến thắng trong game bài poker. Không đơn thuần [...]",
+    link: "https://king88vina.vip/choi-lieng-cao-to-3-cay/",
+    title: "Hướng Dẫn Chi Tiết Kinh Nghiệm Chơi Liêng Cào Tố 3 Cây ",
+    desc: "Chắc hẳn trong thế giới bài bạc, game thủ quá quen thuộc với nhiều thể [...]",
     comments: null,
   },
   {
     id: 3,
     image: image3,
-    link: "",
-    title: "Hướng Dẫn Game Thủ Cách Cài Đặt Tool Hack Game Casino",
-    desc: "Tool hack game casino được rất nhiều anh em lựa chọn để sử dụng chơi [...]",
+    link: "https://king88vina.vip/game-bai-ps-king88-trai-nghiem-casino-chuan-vip-quoc-te/",
+    title: "Game Bài PS King88 – Trải Nghiệm Casino Chuẩn VIP Quốc Tế",
+    desc: "Game bài PS King88 là nơi tốt nhất để các tay chơi trải nghiệm hòa [...]",
     comments: null,
   },
   {
     id: 4,
     image: image4,
-    link: "",
-    title: "Khám Phá Các Hand Poker Giúp Bắt Đầu Thuận Lợi",
-    desc: "Bạn đã từng nghe đến Hand Poker chưa? Đó là một khía cạnh thú vị [...]",
+    link: "https://king88vina.vip/game-bai-mg-king88-nang-tam-trai-nghiem-cho-cac-tay-choi/",
+    title: "Game Bài MG King88 – Nâng Tầm Trải Nghiệm Cho Các Tay Chơi",
+    desc: "Tìm hiểu sơ lược về sảnh game bài MG King88 và các trò chơi hot [...]",
     comments: null,
   },
   {
     id: 5,
     image: image5,
-    link: "",
-    title: "Đánh Baccarat Theo Nhóm Và Những Điều Bet Thủ Cần Biết ",
-    desc: "Khi tiếp xúc với thế giới của trò chơi Baccarat, bạn sẽ thường nghe đến [...]",
+    link: "https://king88vina.vip/game-bai-km-king88-tro-choi-doi-thuong-hot-nhat-thoi-dai/",
+    title: "Game bài KM King88 – Trò chơi đổi thưởng hot nhất thời đại",
+    desc: "Game bài KM King88 là trò chơi không thể không thử sức khi đến nhà [...]",
     comments: null,
   },
   {
     id: 6,
     image: image6,
-    link: "",
-    title: "Cùng King88 Tìm Hiểu Tựa Game Win Three Cards Chi Tiết Nhất",
-    desc: "Win three cards, một trò chơi từ lâu đã phổ biến trên thị trường casino [...]",
+    link: "https://king88vina.vip/game-bai-jili-king88-thu-vi-phong-phu-va-vo-cung-hap-dan/",
+    title: "Game Bài JILI King88 – Thú Vị, Phong Phú Và Vô Cùng Hấp Dẫn",
+    desc: "Game bài JILI King88 đang ngày càng phát triển, trở thành một thiên đường cá [...]",
     comments: null,
   },
   {
     id: 7,
     image: image7,
-    link: "",
-    title: "Khái Niệm Flush Poker Là Gì? – Xếp Hạng Bộ Bài Chuyên Nghiệp",
-    desc: "Flush poker là gì? Phương pháp chơi của thuật ngữ này có điều gì khác [...]",
+    link: "https://king88vina.vip/game-bai-rich88-king88-thu-hut-bang-giao-dien-dep-mat/",
+    title: "Game bài RICH88 King88 – Thu hút bằng giao diện đẹp mắt",
+    desc: "Game bài RICH88 King88 là nền tảng vô cùng hấp dẫn hiện nay. Với rất [...]",
     comments: null,
   },
   {
     id: 8,
     image: image8,
-    link: "",
-    title: "Casino AG King88: Đẳng Cấp Sòng Bài Online Từ Nhà Cái Uy Tín",
-    desc: "Nếu bạn là người yêu thích các trò chơi sòng bài quốc tế thì chắc [...]",
+    link: "https://king88vina.vip/game-bai-sg-thu-thuat-thang-tron-cung-chuyen-gia/",
+    title: "Game Bài Sg – Thủ Thuật Thắng Trọn Cùng Chuyên Gia",
+    desc: "Game bài SG được xem là một trong những trò chơi đứng đầu thị trường [...]",
     comments: null,
   },
   {
     id: 9,
     image: image9,
-    link: "",
-    title: "Các Dạng Cược Trong Poker Hấp Dẫn, Thú Vị Và Đa Dạng",
-    desc: "Tìm hiểu ngay các dạng cược trong Poker , mang đến cho game thủ góc [...]",
-    comments: null,
-  },
-  {
-    id: 10,
-    image: image10,
-    link: "",
-    title: "Định Nghĩa Bluff Poker Là Gì? Chiến Thuật Chơi Hiệu Quả",
-    desc: "Bluff poker là gì? tại sao lại khiến các cược thủ thích thú đến vậy? [...]",
+    link: "https://king88vina.vip/game-bai-wg-king88-hap-dan-thu-vi-va-loi-cuon/",
+    title: "Game bài WG King88 – Hấp dẫn, thú vị và lôi cuốn",
+    desc: "Game bài WG nhà cái King88 đã và đang dần phát triển trở thành một [...]",
     comments: null,
   },
 ];
@@ -106,7 +98,7 @@ const CardGame = () => {
   };
   return (
     <div className="bg-black">
-      <div className="mx-auto w-main text-white">
+      <div className="mx-auto phone:w-full laptop:w-main text-white">
         <h1 className="uppercase font-bold text-main pt-4 pb-4 text-center">
           GAME BÀI KING88
         </h1>
@@ -133,7 +125,7 @@ const CardGame = () => {
         <div className="relative">
           <div
             className={clsx(
-              "w-[960px] mx-auto flex justify-center flex-col",
+              "phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col",
               expanded ? "h-auto" : "h-[100px] overflow-hidden"
             )}
           >
@@ -191,7 +183,7 @@ const CardGame = () => {
               }
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col">
                 <img src={ThamGia} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Tham gia game tại King88 cực nhanh chóng và dễ dàng
@@ -237,7 +229,7 @@ const CardGame = () => {
               không thể nào quên khi tham gia vào thế giới game bài.
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col">
                 <img src={baiCasino} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Trải nghiệm Poker cực đỉnh
@@ -273,7 +265,7 @@ const CardGame = () => {
               trò chơi theo luật lệ đã được quy định trước.{" "}
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col">
                 <img src={Tuagamehot} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Hướng dẫn tham gia game bài tại King88 cực chi tiết

@@ -1,8 +1,8 @@
 const Agency = () => {
   return (
     <div className="bg-black">
-      <div className="w-main mx-auto text-white">
-        <div>
+      <div className="tablet:w-full laptop:w-main mx-auto text-white">
+        <div className="px-4">
           <h2 className="text-main font-bold text-[25px] mt-5 pb-2">
             ĐẠI LÝ KING88 – HỢP TÁC ĐẠI LÝ KIẾM HOA HỒNG KHỦNG
           </h2>

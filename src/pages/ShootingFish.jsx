@@ -14,7 +14,7 @@ const blogs = [
   {
     id: 1,
     image: image1,
-    link: "",
+    link: "https://king88vina.vip/game-ban-ca-bien-sau/",
     title: "Ưu Điểm Game Bắn Cá Biển Sâu Thu Hút Số Lượng Lớn Cược Thủ",
     desc: "Bắn cá biển sâu là tựa game mới xuất hiện không lâu thuộc sảnh game [...]",
     comments: 2,
@@ -22,7 +22,7 @@ const blogs = [
   {
     id: 2,
     image: image2,
-    link: "",
+    link: "https://king88vina.vip/game-ban-ca-long-vuong/",
     title: "Game Bắn Cá Long Vương Đổi Tiền Thưởng Khủng Tại King88",
     desc: "Game bắn cá long vương là trò chơi trực tuyến đổi thưởng khủng được nhiều [...]",
     comments: 1,
@@ -30,7 +30,7 @@ const blogs = [
   {
     id: 3,
     image: image3,
-    link: "",
+    link: "https://king88vina.vip/ban-ca-hd/",
     title: "Bắn Cá HD – Sự Đột Phá Đầy Tính Đổi Mới Ấn Tượng Tại King88",
     desc: "Bắn cá HD – Sự đột phá ấn tượng đã mang đến sức hút lớn [...]",
     comments: null,
@@ -38,7 +38,7 @@ const blogs = [
   {
     id: 4,
     image: image4,
-    link: "",
+    link: "https://king88vina.vip/cach-choi-ban-ca-kui-lee/",
     title: "Cách Chơi Bắn Cá Kui Lee Tại Cổng Game King88 Hot Hit Nhất 2024",
     desc: "Cách chơi bắn cá Kui Lee là từ khóa đang được cộng đồng ngư thủ [...]",
     comments: null,
@@ -53,7 +53,7 @@ const ShootingFish = () => {
   };
   return (
     <div className="bg-black">
-      <div className="mx-auto w-main text-white">
+      <div className="mx-auto phone:w-full laptop:w-main text-white">
         <h1 className="uppercase font-bold text-main pt-4 pb-4 text-center">
           BẮN CÁ KING88
         </h1>
@@ -83,7 +83,7 @@ const ShootingFish = () => {
         <div className="relative">
           <div
             className={clsx(
-              "w-[960px] mx-auto flex justify-center flex-col",
+              "phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col",
               expanded ? "h-auto" : "h-[100px] overflow-hidden"
             )}
           >
@@ -132,7 +132,7 @@ const ShootingFish = () => {
               nối internet.
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col">
                 <img src={ThamGia} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Tham gia game tại King88 cực nhanh chóng và dễ dàng
@@ -173,7 +173,7 @@ const ShootingFish = () => {
                 triển phải nâng cao chất lượng của trang web.
               </p>
               <div>
-                <div className="w-[960px] mx-auto flex justify-center flex-col">
+                <div className="phone:w-[90%] laptop:w-[960px] mx-auto flex justify-center flex-col">
                   <img src={GiaoDien} alt="" className="mb-2" />
                   <span className="text-center italic">
                     Giao diện đồ hoạ được thiết kế cực tỉ mỉ
@@ -217,7 +217,7 @@ const ShootingFish = () => {
                 rút tiền.
               </p>
               <div>
-                <div className="w-[800px] mx-auto flex justify-center items-center flex-col">
+                <div className="phone:w-[90%] laptop:w-[800px] mx-auto flex justify-center items-center flex-col">
                   <img src={HuongDan} alt="" className="mb-2" />
                   <span className="text-center italic">
                     Hướng dẫn đăng ký tham gia bắn cá King88

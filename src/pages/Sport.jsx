@@ -1,13 +1,13 @@
-import image1 from "../image/khai-niem-ve-cach-choi-roulette.jpg";
-import image2 from "../image/luat-cua-cach-choi-poker-2-la.jpg";
-import image3 from "../image/cach-cai-dat-cong-cu-hack-game-don-gian.jpg";
-import image4 from "../image/kham-pha-hand-poker-la-gi.jpg";
-import image5 from "../image/danh-baccarat-theo-nhom-de-nhan-duoc-su-ho-tro-dich-thuc.jpg";
-import image6 from "../image/gioi-thieu-tong-quan-ve-win-three-cards.jpg";
-import image7 from "../image/uu-diem-khi-dung-flush-poker.png";
-import image8 from "../image/gioi-thieu-ag-casino.png";
-import image9 from "../image/khai-niem-poker-la-gi.png";
-import image10 from "../image/loi-ich-khi-dung-bluff-poker.png";
+import image1 from "../image/dinh-nghia-xa-keo-la-gi.jpg";
+import image2 from "../image/so-luoc-ve-keo-chau-au-hot-nhat-hien-nay.jpg";
+import image3 from "../image/dinh-nghia-ve-keo-penalty-tai-nha-cai.jpg";
+import image4 from "../image/keo-chap-phat-goc-duoc-hieu-nhu-the-nao.jpg";
+import image5 from "../image/Tim-hieu-chung-ve-keo-chan-le-la-gi.jpg";
+import image6 from "../image/Cach-ca-cuoc-keo-chap-dong-banh-de-chien-thang-nhat.jpg";
+import image7 from "../image/Kinh-nghiem-soi-cau-keo-tren-keo-duoi-hay-ma-ban-nen-biet.jpg";
+import image8 from "../image/Kinh-nghiem-cuoc-rung-hieu-qua-cho-cac-bet-thu.jpg";
+import image9 from "../image/Hinh-thuc-Keo-chap-dong-banh-1_4-trai.jpg";
+import image10 from "../image/Cach-doc-keo-ti-so-cuc-ky-don-gian.jpg";
 import { useState } from "react";
 import sanhCasino from "../image/Ca-cuoc-the-thao-king88-da-dang-phong-phu-cac-the-loai-choi.webp";
 import ThamGia from "../image/Tao-tai-khoan-tai-king88-de-trai-nghiem-nhung-dich-vu-hot-nhat.webp";
@@ -20,81 +20,81 @@ const blogs = [
   {
     id: 1,
     image: image1,
-    link: "",
-    title: "Bật Mí Cách Chơi Roulette Dễ Về Bờ Cho Các Cược Thủ",
-    desc: "Roulette là một trong những trò chơi game bài ăn khách được thiết kế tỷ [...]",
+    link: "https://king88vina.vip/xa-keo-la-gi/",
+    title: "Định nghĩa xả kèo là gì? Bí Quyết Chơi Xả Kèo Thành Công",
+    desc: "Xả kèo là gì – Là câu hỏi được nhiều anh em quan tâm khi [...]",
     comments: null,
   },
   {
     id: 2,
     image: image2,
-    link: "",
-    title: "Hướng Dẫn Cách Chơi Poker 2 lá Đơn Giản Cho Tân Thủ",
-    desc: "Để nâng cao tỷ lệ giành chiến thắng trong game bài poker. Không đơn thuần [...]",
+    link: "https://king88vina.vip/keo-chau-au/",
+    title: "Tổng Quan Về Kèo Châu Âu Tại Nhà Cái 66King88 Dành Cho Cược Thủ",
+    desc: "Kèo châu Âu tại 66King88 là một trong những loại cược phổ biến và được [...]",
     comments: null,
   },
   {
     id: 3,
     image: image3,
-    link: "",
-    title: "Hướng Dẫn Game Thủ Cách Cài Đặt Tool Hack Game Casino",
-    desc: "Tool hack game casino được rất nhiều anh em lựa chọn để sử dụng chơi [...]",
+    link: "https://king88vina.vip/keo-penalty/",
+    title: "Kèo Penalty – Những Thông Tin Quan Trọng Dành Cho Tân Thủ",
+    desc: "Kèo penalty được biết đến là loại kèo phổ biến trong bóng đá. Vậy bạn [...]",
     comments: null,
   },
   {
     id: 4,
     image: image4,
-    link: "",
-    title: "Khám Phá Các Hand Poker Giúp Bắt Đầu Thuận Lợi",
-    desc: "Bạn đã từng nghe đến Hand Poker chưa? Đó là một khía cạnh thú vị [...]",
+    link: "https://king88vina.vip/keo-chap-phat-goc/",
+    title: "Các Loại Kèo Chấp Phạt Góc Hấp Dẫn Dành Cho Tân Thủ",
+    desc: "Kèo chấp phạt góc có điều gì thú vị mà lại thu hút nhiều người [...]",
     comments: null,
   },
   {
     id: 5,
     image: image5,
-    link: "",
-    title: "Đánh Baccarat Theo Nhóm Và Những Điều Bet Thủ Cần Biết ",
-    desc: "Khi tiếp xúc với thế giới của trò chơi Baccarat, bạn sẽ thường nghe đến [...]",
+    link: "https://king88vina.vip/tuyet-chieu-danh-keo-chan-le-bat-bai-tan-thu-nen-biet/",
+    title: "Tuyệt Chiêu Đánh Kèo Chẵn Lẻ Bất Bại Tân Thủ Nên Biết",
+    desc: "Kèo chẵn lẻ sẽ giúp bạn tối ưu hóa cơ hội thắng của mình trong [...]",
     comments: null,
   },
   {
     id: 6,
     image: image6,
-    link: "",
-    title: "Cùng King88 Tìm Hiểu Tựa Game Win Three Cards Chi Tiết Nhất",
-    desc: "Win three cards, một trò chơi từ lâu đã phổ biến trên thị trường casino [...]",
+    link: "https://king88vina.vip/keo-chap-dong-banh-tai-king88-co-hoi-chien-thang-cao/",
+    title: "Kèo Chấp Đồng Banh Tại King88 Cơ Hội Chiến Thắng Cao",
+    desc: "Kèo chấp đồng banh là một trong những tỷ lệ cược không mấy xa lạ [...]",
     comments: null,
   },
   {
     id: 7,
     image: image7,
-    link: "",
-    title: "Khái Niệm Flush Poker Là Gì? – Xếp Hạng Bộ Bài Chuyên Nghiệp",
-    desc: "Flush poker là gì? Phương pháp chơi của thuật ngữ này có điều gì khác [...]",
+    link: "https://king88vina.vip/keo-tren-keo-duoi-la-gi-ban-da-co-kinh-nghiem-soi-keo-chuan/",
+    title: "Kèo Trên Kèo Dưới Là Gì? Bạn Đã Có Kinh Nghiệm Soi Kèo Chuẩn",
+    desc: "Kèo trên kèo dưới là gì, không phải là câu hỏi quá khó đối với [...]",
     comments: null,
   },
   {
     id: 8,
     image: image8,
-    link: "",
-    title: "Casino AG King88: Đẳng Cấp Sòng Bài Online Từ Nhà Cái Uy Tín",
-    desc: "Nếu bạn là người yêu thích các trò chơi sòng bài quốc tế thì chắc [...]",
+    link: "https://king88vina.vip/keo-rung-bong-da-cach-choi-hieu-qua-tai-san-choi-king88/",
+    title: "Kèo Rung Bóng Đá – Cách Chơi Hiệu Quả Tại Sân Chơi King88",
+    desc: "Kèo rung là tỷ lệ cược khá phổ biến và được nhiều anh em game [...]",
     comments: null,
   },
   {
     id: 9,
     image: image9,
-    link: "",
-    title: "Các Dạng Cược Trong Poker Hấp Dẫn, Thú Vị Và Đa Dạng",
-    desc: "Tìm hiểu ngay các dạng cược trong Poker , mang đến cho game thủ góc [...]",
+    link: "https://king88vina.vip/keo-chap-dong-banh-va-nhung-thong-tin-thu-vi-ban-nen-biet/",
+    title: "Kèo chấp đồng banh và những thông tin thú vị bạn nên biết",
+    desc: "Kèo chấp đồng banh là một trong những loại kèo xuất hiện phổ biến tại [...]",
     comments: null,
   },
   {
     id: 10,
     image: image10,
-    link: "",
-    title: "Định Nghĩa Bluff Poker Là Gì? Chiến Thuật Chơi Hiệu Quả",
-    desc: "Bluff poker là gì? tại sao lại khiến các cược thủ thích thú đến vậy? [...]",
+    link: "https://king88vina.vip/cach-doc-keo-bong-da-chi-tiet-tu-king88-danh-cho-tan-thu/",
+    title: "Cách Đọc Kèo Bóng Đá Chi Tiết Từ 33king88 Dành Cho Tân Thủ",
+    desc: "Cách đọc kèo bóng đá được đánh giá là một trong những kỹ năng quan [...]",
     comments: null,
   },
 ];
@@ -106,7 +106,7 @@ const Sport = () => {
   };
   return (
     <div className="bg-black">
-      <div className="mx-auto w-main text-white">
+      <div className="mx-auto phone:w-full laptop:w-main text-white">
         <h1 className="uppercase font-bold text-main pt-4 pb-4 text-center">
           THỂ THAO KING88
         </h1>
@@ -123,7 +123,7 @@ const Sport = () => {
         <div className="relative">
           <div
             className={clsx(
-              "w-[960px] mx-auto flex justify-center flex-col",
+              "phone:w-full laptop:w-main mx-auto flex justify-center flex-col",
               expanded ? "h-auto" : "h-[100px] overflow-hidden"
             )}
           >
@@ -160,7 +160,7 @@ const Sport = () => {
               thử qua game này.
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-full laptop:w-main mx-auto flex justify-center flex-col">
                 <img src={ThamGia} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Tạo tài khoản tại King88 để trải nghiệm những dịch vụ hot nhất
@@ -186,7 +186,7 @@ const Sport = () => {
               League và Europa League, . ..
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-full laptop:w-main mx-auto flex justify-center flex-col">
                 <img src={baiCasino} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Game cá cược bóng đá rất được yêu thích tại nhà cái King88
@@ -253,7 +253,7 @@ const Sport = () => {
               người chơi tại King88. Một số ưu điểm nhất định phải kể đến như:
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-full laptop:w-main mx-auto flex justify-center flex-col">
                 <img src={Tuagamehot} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Đa dạng trò chơi là một điểm mạnh thu hút lượng lớn người tham

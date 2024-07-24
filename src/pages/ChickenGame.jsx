@@ -1,13 +1,13 @@
-import image1 from "../image/khai-niem-ve-cach-choi-roulette.jpg";
-import image2 from "../image/luat-cua-cach-choi-poker-2-la.jpg";
-import image3 from "../image/cach-cai-dat-cong-cu-hack-game-don-gian.jpg";
-import image4 from "../image/kham-pha-hand-poker-la-gi.jpg";
-import image5 from "../image/danh-baccarat-theo-nhom-de-nhan-duoc-su-ho-tro-dich-thuc.jpg";
-import image6 from "../image/gioi-thieu-tong-quan-ve-win-three-cards.jpg";
-import image7 from "../image/uu-diem-khi-dung-flush-poker.png";
-import image8 from "../image/gioi-thieu-ag-casino.png";
-import image9 from "../image/khai-niem-poker-la-gi.png";
-import image10 from "../image/loi-ich-khi-dung-bluff-poker.png";
+import image1 from "../image/cac-thuat-ngu-trong-da-ga-khac-duoc-su-dung-nhieu.jpg";
+import image2 from "../image/cach-xem-mat-ga-choi-co-ban.jpg";
+import image3 from "../image/ga-da-bi-hoc-anh-huong-den-the-luc-chien-ke-rat-nhieu-nen-ban-can-quan-tam.jpg";
+import image4 from "../image/viec-co-che-do-nuoi-duong-thich-hop-truoc-chien-dau-se-giup-ga-khoe-manh.jpg";
+import image5 from "../image/tong-quan-da-ga-philippines.jpg";
+import image6 from "../image/da-ga-thomo-duoc-menh-danh-la-thien-duong-giai-tri-moi-cho-nhieu-su-ke.jpg";
+import image7 from "../image/gioi-thieu-ve-cach-chon-tuong-ga-da.jpg";
+import image8 from "../image/mot-so-loai-keo-da-ga-duoc-yeu-thich.jpg";
+import image9 from "../image/Choi-da-ga-truc-tuyen-tren-nhieu-thiet-bi-khac-nhau-de-dang.jpg";
+import image10 from "../image/Da-ga-truc-tuyen-tai-WS168-King88-co-nguon-goc-ro-rang.jpg";
 import { useState } from "react";
 import daGa from "../image/Gioi-thieu-ve-tua-game-da-ga.webp";
 import ThamGia from "../image/Luat-choi-da-ga-tung-vung-mien-khac-nhau.webp";
@@ -20,81 +20,81 @@ const blogs = [
   {
     id: 1,
     image: image1,
-    link: "",
-    title: "Bật Mí Cách Chơi Roulette Dễ Về Bờ Cho Các Cược Thủ",
-    desc: "Roulette là một trong những trò chơi game bài ăn khách được thiết kế tỷ [...]",
+    link: "https://king88vina.vip/thuat-ngu-trong-da-ga/",
+    title: "Thuật Ngữ Trong Đá Gà – Từ Ngữ Chuyên Dùng Trong Đá Gà ",
+    desc: "Thuật ngữ trong đá gà là điều mà người chơi cần tìm hiểu kỹ lưỡng [...]",
     comments: null,
   },
   {
     id: 2,
     image: image2,
-    link: "",
-    title: "Hướng Dẫn Cách Chơi Poker 2 lá Đơn Giản Cho Tân Thủ",
-    desc: "Để nâng cao tỷ lệ giành chiến thắng trong game bài poker. Không đơn thuần [...]",
+    link: "https://king88vina.vip/cach-xem-mat-ga-choi/",
+    title: "Cách Xem Mắt Gà Chọi Hay, Chuẩn Cho Các Trận Chiến Khốc Liệt",
+    desc: "Cách xem mắt gà chọi sẽ giúp bạn có được những sự chọn lọc chuẩn [...]",
     comments: null,
   },
   {
     id: 3,
     image: image3,
-    link: "",
-    title: "Hướng Dẫn Game Thủ Cách Cài Đặt Tool Hack Game Casino",
-    desc: "Tool hack game casino được rất nhiều anh em lựa chọn để sử dụng chơi [...]",
+    link: "https://king88vina.vip/cach-nuoi-ga-da-khong-bi-hoc/",
+    title: "Cách Nuôi Gà Đá Không Bị Hốc Theo Chuẩn Chuyên Gia Kinh88",
+    desc: "Cách nuôi gà đá không bị hốc luôn được nhiều sư kê chú trọng, do [...]",
     comments: null,
   },
   {
     id: 4,
     image: image4,
-    link: "",
-    title: "Khám Phá Các Hand Poker Giúp Bắt Đầu Thuận Lợi",
-    desc: "Bạn đã từng nghe đến Hand Poker chưa? Đó là một khía cạnh thú vị [...]",
+    link: "https://king88vina.vip/cach-nuoi-ga-da-bo/",
+    title: "Cách Nuôi Gà Đá Bo Đúng Cách Theo Chuyên Gia King88",
+    desc: "Cách nuôi gà đá bo lớn nhanh và đúng cách là các phương pháp mà [...]",
     comments: null,
   },
   {
     id: 5,
     image: image5,
-    link: "",
-    title: "Đánh Baccarat Theo Nhóm Và Những Điều Bet Thủ Cần Biết ",
-    desc: "Khi tiếp xúc với thế giới của trò chơi Baccarat, bạn sẽ thường nghe đến [...]",
+    link: "https://king88vina.vip/da-ga-philippines/",
+    title: "Đá Gà Philippines – Bí Kíp Thắng Lớn Cùng Cao Thủ King88",
+    desc: "Đá gà Philippines là là sân chơi hợp pháp, được nhà nước Philippines thừa nhận [...]",
     comments: null,
   },
   {
     id: 6,
     image: image6,
-    link: "",
-    title: "Cùng King88 Tìm Hiểu Tựa Game Win Three Cards Chi Tiết Nhất",
-    desc: "Win three cards, một trò chơi từ lâu đã phổ biến trên thị trường casino [...]",
+    link: "https://king88vina.vip/da-ga-thomo/",
+    title: "Đá Gà Thomo Là Gì? Luật Chơi Đá Gà Chuẩn Như Thế Nào?",
+    desc: "Đá gà Thomo là một chuỗi những giải thi đấu lớn và trường Thomo là [...]",
     comments: null,
   },
   {
     id: 7,
     image: image7,
-    link: "",
-    title: "Khái Niệm Flush Poker Là Gì? – Xếp Hạng Bộ Bài Chuyên Nghiệp",
-    desc: "Flush poker là gì? Phương pháp chơi của thuật ngữ này có điều gì khác [...]",
+    link: "https://king88vina.vip/cach-chon-tuong-ga-da/",
+    title: "Cách Chọn Tướng Gà Đá Chuẩn Nhất Dành Cho Dân Sành Gà Chọi",
+    desc: "Cách chọn tướng gà đá là một kỹ năng không phải ai cũng có thể [...]",
     comments: null,
   },
   {
     id: 8,
     image: image8,
-    link: "",
-    title: "Casino AG King88: Đẳng Cấp Sòng Bài Online Từ Nhà Cái Uy Tín",
-    desc: "Nếu bạn là người yêu thích các trò chơi sòng bài quốc tế thì chắc [...]",
+    link: "https://king88vina.vip/keo-da-ga-cua-sat/",
+    title: "Kinh Nghiệm Bắt Kèo Đá Gà Cựa Sắt Hiệu Quả Từ Các Cao Thủ",
+    desc: "Kèo đá gà cựa sắt là một trong những kèo cược được ưa chuộng bởi [...]",
     comments: null,
   },
   {
     id: 9,
     image: image9,
-    link: "",
-    title: "Các Dạng Cược Trong Poker Hấp Dẫn, Thú Vị Và Đa Dạng",
-    desc: "Tìm hiểu ngay các dạng cược trong Poker , mang đến cho game thủ góc [...]",
+    link: "https://king88vina.vip/cach-da-ga-sv128-king88-co-hoi-chien-thang-cao-cho-gamer/",
+    title: "Cách Đá Gà SV128 King88 Cơ Hội Chiến Thắng Cao Cho Gamer",
+    desc: "Đá gà SV128 King88 có lẽ không còn quá xa lạ đối với các anh [...]",
     comments: null,
   },
   {
     id: 10,
     image: image10,
-    link: "",
-    title: "Định Nghĩa Bluff Poker Là Gì? Chiến Thuật Chơi Hiệu Quả",
-    desc: "Bluff poker là gì? tại sao lại khiến các cược thủ thích thú đến vậy? [...]",
+    link: "https://king88vina.vip/da-ga-ws168-king88-choi-ca-cuoc-online-day-kich-tinh/",
+    title: "Đá Gà WS168 King88 – Chơi Cá Cược Online Đầy Kịch Tính",
+    desc: "Đá gà Ws168 King88 mang lại cho thành viên những giây phút trải nghiệm cá [...]",
     comments: null,
   },
 ];
@@ -106,7 +106,7 @@ const ChickenGame = () => {
   };
   return (
     <div className="bg-black">
-      <div className="mx-auto w-main text-white">
+      <div className="mx-auto phone:w-full laptop:w-main text-white">
         <h1 className="uppercase font-bold text-main pt-4 pb-4 text-center">
           ĐÁ GÀ KING88
         </h1>
@@ -133,7 +133,7 @@ const ChickenGame = () => {
         <div className="relative">
           <div
             className={clsx(
-              "w-[960px] mx-auto flex justify-center flex-col",
+              "phone:w-full laptop:w-main mx-auto flex justify-center flex-col",
               expanded ? "h-auto" : "h-[100px] overflow-hidden"
             )}
           >
@@ -173,7 +173,7 @@ const ChickenGame = () => {
               từ 3 đến 4 cân và hạng nhẹ dưới 3 cân.
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-full laptop:w-main mx-auto flex justify-center flex-col">
                 <img src={ThamGia} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Luật chơi đá gà từng vùng miền khác nhau
@@ -212,7 +212,7 @@ const ChickenGame = () => {
             </p>
 
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-full laptop:w-main mx-auto flex justify-center flex-col">
                 <img src={ThuatNgu} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Một số thuật ngữ thường gặp khi tham gia Đá gà
@@ -235,7 +235,7 @@ const ChickenGame = () => {
               Có 3 cửa sự lựa chọn đặt cược trước khi trận đấu đá gà diễn ra.
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-full laptop:w-main mx-auto flex justify-center flex-col">
                 <img src={HuongDan} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Hướng dẫn cách tham gia đá gà cụ thể nhất

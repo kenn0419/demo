@@ -1,13 +1,9 @@
-import image1 from "../image/khai-niem-ve-cach-choi-roulette.jpg";
-import image2 from "../image/luat-cua-cach-choi-poker-2-la.jpg";
-import image3 from "../image/cach-cai-dat-cong-cu-hack-game-don-gian.jpg";
-import image4 from "../image/kham-pha-hand-poker-la-gi.jpg";
-import image5 from "../image/danh-baccarat-theo-nhom-de-nhan-duoc-su-ho-tro-dich-thuc.jpg";
-import image6 from "../image/gioi-thieu-tong-quan-ve-win-three-cards.jpg";
-import image7 from "../image/uu-diem-khi-dung-flush-poker.png";
-import image8 from "../image/gioi-thieu-ag-casino.png";
-import image9 from "../image/khai-niem-poker-la-gi.png";
-import image10 from "../image/loi-ich-khi-dung-bluff-poker.png";
+import image1 from "../image/no-hu-wg-300x188.jpg";
+import image2 from "../image/sanh-game-no-hu-jdb-king88-thong-dung-nhat.jpg";
+import image3 from "../image/bet-trong-poker-la-gi.jpg";
+import image4 from "../image/Tua-game-no-hu-Jili-King88-la-gi.jpg";
+import image5 from "../image/No-hu-SBO-giup-sinh-loi-tot.jpg";
+import image6 from "../image/Muc-phi-Rake-Poker-trung-binh-o-cac-nha-cai.jpg";
 import { useState } from "react";
 import sanhCasino from "../image/Game-no-hu-King88-cuc-thu-vi.webp";
 import ThamGia from "../image/No-hu-King88-so-huu-nhieu-tinh-nang-doc-dao.webp";
@@ -20,81 +16,49 @@ const blogs = [
   {
     id: 1,
     image: image1,
-    link: "",
-    title: "Bật Mí Cách Chơi Roulette Dễ Về Bờ Cho Các Cược Thủ",
-    desc: "Roulette là một trong những trò chơi game bài ăn khách được thiết kế tỷ [...]",
-    comments: null,
+    link: "https://king88vina.vip/no-hu-wg-king88-san-choi-thoa-suc-sang-tao-damme/",
+    title: "Nổ Hũ WG King88 – Sân Chơi Thỏa Sức Sáng Tạo, ĐamMê ",
+    desc: "Nổ hũ WG King88 có những trò chơi nào hấp dẫn? Tại sao sảnh chơi [...]",
+    comments: 4,
   },
   {
     id: 2,
     image: image2,
-    link: "",
-    title: "Hướng Dẫn Cách Chơi Poker 2 lá Đơn Giản Cho Tân Thủ",
-    desc: "Để nâng cao tỷ lệ giành chiến thắng trong game bài poker. Không đơn thuần [...]",
+    link: "https://king88vina.vip/no-hu-jdb-king88-mang-den-co-hoi-nhan-nhieu-uu-dai/",
+    title: "Nổ Hũ JDB King88 Mang Đến Cơ Hội Nhận Nhiều Ưu Đãi",
+    desc: "Nổ hũ JDB King88 có điều gì mà tựa game lại thú vị và hấp [...]",
     comments: null,
   },
   {
     id: 3,
     image: image3,
-    link: "",
-    title: "Hướng Dẫn Game Thủ Cách Cài Đặt Tool Hack Game Casino",
-    desc: "Tool hack game casino được rất nhiều anh em lựa chọn để sử dụng chơi [...]",
+    link: "https://king88vina.vip/thuat-ngu-poker-50-chi-tiet-nhat-dan-choi-khong-the-bo-lo/",
+    title: "50+ Thuật Ngữ Poker Chi Tiết Nhất Dân Chơi Không Thể Bỏ Lỡ",
+    desc: "Đôi khi các tay chơi có thể gặp các khó khăn trong việc đọc các [...]",
     comments: null,
   },
   {
     id: 4,
     image: image4,
-    link: "",
-    title: "Khám Phá Các Hand Poker Giúp Bắt Đầu Thuận Lợi",
-    desc: "Bạn đã từng nghe đến Hand Poker chưa? Đó là một khía cạnh thú vị [...]",
+    link: "https://king88vina.vip/co-hoi-chinh-phuc-no-hu-jili-king88-bi-quyet-cho-anh-em/",
+    title: "Cơ hội chinh phục nổ hũ Jili King88, bí quyết cho anh em",
+    desc: "Khám phá ngay nổ hũ Jili King88: điểm đến yêu thích của những người chơi [...]",
     comments: null,
   },
   {
     id: 5,
     image: image5,
-    link: "",
-    title: "Đánh Baccarat Theo Nhóm Và Những Điều Bet Thủ Cần Biết ",
-    desc: "Khi tiếp xúc với thế giới của trò chơi Baccarat, bạn sẽ thường nghe đến [...]",
+    link: "https://king88vina.vip/no-hu-sbo-king88-va-nhung-dieu-thu-vi-khong-the-bo-qua/",
+    title: "Nổ Hũ SBO King88 Và Những Điều Thú Vị Không Thể Bỏ Qua",
+    desc: "Nổ hũ SBO King88 là một trong những địa chỉ giải trí nhận được đánh [...]",
     comments: null,
   },
   {
     id: 6,
     image: image6,
-    link: "",
-    title: "Cùng King88 Tìm Hiểu Tựa Game Win Three Cards Chi Tiết Nhất",
-    desc: "Win three cards, một trò chơi từ lâu đã phổ biến trên thị trường casino [...]",
-    comments: null,
-  },
-  {
-    id: 7,
-    image: image7,
-    link: "",
-    title: "Khái Niệm Flush Poker Là Gì? – Xếp Hạng Bộ Bài Chuyên Nghiệp",
-    desc: "Flush poker là gì? Phương pháp chơi của thuật ngữ này có điều gì khác [...]",
-    comments: null,
-  },
-  {
-    id: 8,
-    image: image8,
-    link: "",
-    title: "Casino AG King88: Đẳng Cấp Sòng Bài Online Từ Nhà Cái Uy Tín",
-    desc: "Nếu bạn là người yêu thích các trò chơi sòng bài quốc tế thì chắc [...]",
-    comments: null,
-  },
-  {
-    id: 9,
-    image: image9,
-    link: "",
-    title: "Các Dạng Cược Trong Poker Hấp Dẫn, Thú Vị Và Đa Dạng",
-    desc: "Tìm hiểu ngay các dạng cược trong Poker , mang đến cho game thủ góc [...]",
-    comments: null,
-  },
-  {
-    id: 10,
-    image: image10,
-    link: "",
-    title: "Định Nghĩa Bluff Poker Là Gì? Chiến Thuật Chơi Hiệu Quả",
-    desc: "Bluff poker là gì? tại sao lại khiến các cược thủ thích thú đến vậy? [...]",
+    link: "https://king88vina.vip/rake-poker-la-gi-va-co-anh-huong-ra-sao-toi-cac-tay-cuoc/",
+    title: "Rake Poker Là Gì Và Có Ảnh Hưởng Ra Sao Tới Các Tay Cược?",
+    desc: "Rake Poker là gì và có ảnh hưởng như thế nào tới các tay cược? [...]",
     comments: null,
   },
 ];
@@ -106,7 +70,7 @@ const Explode = () => {
   };
   return (
     <div className="bg-black">
-      <div className="mx-auto w-main text-white">
+      <div className="mx-auto phone:w-full laptop:w-main text-white">
         <h1 className="uppercase font-bold text-main pt-4 pb-4 text-center">
           NỔ HŨ KING88
         </h1>
@@ -135,7 +99,7 @@ const Explode = () => {
         <div className="relative">
           <div
             className={clsx(
-              "w-[960px] mx-auto flex justify-center flex-col",
+              "phone:w-full laptop:w-main mx-auto flex justify-center flex-col",
               expanded ? "h-auto" : "h-[100px] overflow-hidden"
             )}
           >
@@ -181,7 +145,7 @@ const Explode = () => {
               nhất.
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-full laptop:w-main mx-auto flex justify-center flex-col">
                 <img src={ThamGia} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Nổ hũ King88 sở hữu nhiều tính năng độc đáo
@@ -213,7 +177,7 @@ const Explode = () => {
               tại màn hình chính.
             </p>
             <div>
-              <div className="w-[960px] mx-auto flex justify-center flex-col">
+              <div className="phone:w-full laptop:w-main mx-auto flex justify-center flex-col">
                 <img src={baiCasino} alt="" className="mb-2" />
                 <span className="text-center italic">
                   Trải nghiệm mượt mà tại Nổ hũ trên thiết bị di động
@@ -278,7 +242,7 @@ const Explode = () => {
                 nhiệm với hành động cá nhân và đáp ứng đủ điều kiện để đặt cược.
               </p>
               <div>
-                <div className="w-[960px] mx-auto flex justify-center flex-col">
+                <div className="phone:w-full laptop:w-main mx-auto flex justify-center flex-col">
                   <img src={Tuagamehot} alt="" className="mb-2" />
                   <span className="text-center italic">
                     Tổng hợp một số câu hỏi thường gặp tại King88
