@@ -5,6 +5,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
+import clsx from "clsx";
 const Header = ({ setShowMenu }) => {
   return (
     <div className="bg-[#141414] w-full">
@@ -23,7 +24,12 @@ const Header = ({ setShowMenu }) => {
             <li className="h-9">
               <NavLink
                 to={"/"}
-                className="pb-2 hover:text-yellow-400 hover:border-b-4 border-yellow-400"
+                className={({ isActive }) =>
+                  clsx(
+                    "pb-2 hover:text-yellow-400 hover:border-b-4 border-yellow-400",
+                    isActive ? "border-b-4 border-yellow-400" : ""
+                  )
+                }
               >
                 KING88
               </NavLink>
@@ -67,8 +73,12 @@ const Header = ({ setShowMenu }) => {
             </li>
             <li className="h-9">
               <NavLink
-                className="pb-2 hover:text-yellow-400 hover:border-b-4 border-yellow-400"
-                activeClassName="hover:text-yellow-400 hover:border-b-4 border-yellow-400"
+                className={({ isActive }) =>
+                  clsx(
+                    "pb-2 hover:text-yellow-400 hover:border-b-4 border-yellow-400",
+                    isActive ? "border-b-4 border-yellow-400" : ""
+                  )
+                }
                 to={"/promotion"}
               >
                 Khuyến mãi
@@ -76,8 +86,12 @@ const Header = ({ setShowMenu }) => {
             </li>
             <li className="h-9">
               <NavLink
-                className="pb-2 hover:text-yellow-400 hover:border-b-4 border-yellow-400"
-                activeClassName="hover:text-yellow-400 hover:border-b-4 border-yellow-400"
+                className={({ isActive }) =>
+                  clsx(
+                    "pb-2 hover:text-yellow-400 hover:border-b-4 border-yellow-400",
+                    isActive ? "border-b-4 border-yellow-400" : ""
+                  )
+                }
                 to={"/instruct"}
               >
                 Hướng dẫn
@@ -85,8 +99,12 @@ const Header = ({ setShowMenu }) => {
             </li>
             <li className="h-9">
               <NavLink
-                className="pb-2 hover:text-yellow-400 hover:border-b-4 border-yellow-400"
-                activeClassName="hover:text-yellow-400 hover:border-b-4 border-yellow-400"
+                className={({ isActive }) =>
+                  clsx(
+                    "pb-2 hover:text-yellow-400 hover:border-b-4 border-yellow-400",
+                    isActive ? "border-b-4 border-yellow-400" : ""
+                  )
+                }
                 to={"/download-app"}
               >
                 Tải app
@@ -94,8 +112,12 @@ const Header = ({ setShowMenu }) => {
             </li>
             <li className="h-9">
               <NavLink
-                className="pb-2 hover:text-yellow-400 hover:border-b-4 border-yellow-400"
-                activeClassName="hover:text-yellow-400 hover:border-b-4 border-yellow-400"
+                className={({ isActive }) =>
+                  clsx(
+                    "pb-2 hover:text-yellow-400 hover:border-b-4 border-yellow-400",
+                    isActive ? "border-b-4 border-yellow-400" : ""
+                  )
+                }
                 to={"/agency"}
               >
                 Đại lý
@@ -108,14 +130,14 @@ const Header = ({ setShowMenu }) => {
         </div>
         <div className="flex gap-3 py-3 tablet:bg-[#191919] justify-center tablet:w-full laptop:w-[35%] laptop:bg-transparent">
           <a
-            href="https://www.5king88.com/?f=1456978"
+            href="https://www.king8815.com/?f=1456978"
             className="py-2 px-4 bg-yellow-500 rounded-md flex items-center gap-2 font-bold uppercase"
           >
             Đăng ký
             <FaPlus size={14} />
           </a>
           <a
-            href="https://www.5king88.com/?f=1456978"
+            href="https://www.king8815.com/?f=1456978"
             className="py-2 px-4 bg-red-500 rounded-md uppercase font-bold"
           >
             Đăng nhập

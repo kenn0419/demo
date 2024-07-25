@@ -3,11 +3,27 @@ import { Link, Outlet } from "react-router-dom";
 import { Footer, Header } from "../components";
 import { IoSearch } from "react-icons/io5";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { IoIosArrowUp } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import baolyxi from "../image/bao-ly-xi.png";
+import nhanngay from "../image/nhan-ngay.png";
 
 const Public = ({ showMenu, setShowMenu }) => {
   const [show, setShow] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
+  const [arrowUpBtn, setArrowUpBtn] = useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      setArrowUpBtn(window.scrollY >= 300);
+    };
+
+    window.addEventListener("scroll", handleResize);
+
+    return () => {
+      window.removeEventListener("scroll", handleResize);
+    };
+  }, []);
   return (
     <div className="relative w-full h-screen">
       {showMenu && (
@@ -101,10 +117,48 @@ const Public = ({ showMenu, setShowMenu }) => {
           </div>
         </div>
       )}
+      {showPopup && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[100]">
+          <div className="w-1/2 h-1/4 bg-popupColor flex flex-col justify-center items-center rounded-md relative">
+            <span className="text-[15px]">King88 Xin chúc mừng bạn</span>
+            <h3 className="uppercase font-bold py-3">
+              Bạn đã nhận khuyến mãi đặc biệt
+            </h3>
+            <Link to={"https://t.me/Nhacaisieukhuyenmai"}>
+              <img src={nhanngay} alt="" />
+            </Link>
+            <span
+              onClick={() => setShowPopup(false)}
+              className="absolute top-[-10px] h-5 w-5 flex justify-center items-center bg-black text-white p-0 cursor-pointer right-3 border border-white rounded-full"
+            >
+              x
+            </span>
+          </div>
+        </div>
+      )}
       <Header setShowMenu={setShowMenu} />
       <div className="w-full">
         <Outlet />
       </div>
+      <span
+        className="fixed right-1 top-1/2 max-w-[60px] cursor-pointer animate-tada z-[20]"
+        onClick={() => setShowPopup(true)}
+      >
+        <img src={baolyxi} alt="" />
+      </span>
+      {arrowUpBtn && (
+        <div
+          onClick={() => {
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+            });
+          }}
+          className="fixed right-3 bottom-5 p-2 rounded-full border border-white z-20 cursor-pointer flex justify-center items-center hover:bg-yellow-500"
+        >
+          <IoIosArrowUp color="white" size={20} />
+        </div>
+      )}
       <Footer />
     </div>
   );
